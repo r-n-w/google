@@ -3,11 +3,24 @@
     <head>
         <link rel="shortcut icon" href="favicon.ico" />
         <title>My Google</title>
-     <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+
     </head>
     <body>
+        <div class="header">
+            <div class="l">
+                <div>About</div>
+                <div>Store</div>
+            </div>
+            <div class="r">
+                    <div>Gmail</div>
+                    <div>Images</div>
+                    <div>square</div>
+                    <div>icon</div>
+            </div>
+        </div>
         <img id="Google" src="google_logo.png" alt="Google Logo"/>
-    <form>
+    <form action="https://www.google.com/search?" method="GET">
         <div id="text_bubble">
                 <svg focusable="false" xmlns="http://www.w3.org/2000/svg" 
                 viewBox="0 0 24 24">
@@ -18,15 +31,39 @@
                     14 9.5 14z">
                     </path>
                 </svg>
-                <input id="text_input" type="text" autofocus>
-                <img id="microphone" src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" />
+                <input name="q" id="text_input" type="text" autofocus>
+                <img id="microphone" src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png" /> 
         </div>
-        <br>
-        <div id="buttons">
-            <input class="button" type="submit" value="Google Search">
-            <input class="button" type="submit" value="I'm Feeling Lucky">
+        <div id="search_buttons">
+            <button type="submit" id="google_button">Google Search</button>
+            <button type="submit" id="rolling">
+                <div>I'm Feeling Stellar</div>
+                <div>I'm Feeling Artistic</div>
+                <div>I'm Feeling Wonderful</div>
+                <div>I'm Feeling Curious</div>
+                <div>I'm Feeling Hungry</div>
+                <div>I'm Feeling Lucky</div>
+                <div>I'm Feeling Doodley</div>
+                <div>I'm Feeling Generous</div>
+                <div>I'm Feeling Trendy</div>
+                <div>I'm Feeling Puzzled</div>
+                <div>I'm Feeling Playful</div>
+            </button>
         </div>
-
     </form>
+
+    <div class="footer">
+        <div class="l">Advertising</div>
+        <div class="l">Business</div>
+        <div class="l">How Search Works</div>
+        <div class="r">Privacy</div>
+        <div class="r">Terms</div>
+        <div class="r">Settings</div>
+
+    </div>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="my_script.js"></script>
     </body>
 </html>
