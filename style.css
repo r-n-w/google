@@ -17,6 +17,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #5c5c5c;
+
 }
 
 .header .l {
@@ -36,13 +37,16 @@ body {
     height: 36px;
     width: 36px;
     position: relative;
-}
+   
+    
 
+}
 #grid_circle svg {
     height: 24px;
     width: 24px;
     position: relative;
     margin: 6px;
+   
 }
 
 #grid_circle:hover {
@@ -62,7 +66,6 @@ body {
     margin: 0px;
     fill: #5c5c5c;
 }
-
 span {
     cursor: pointer;
 }
@@ -81,7 +84,6 @@ span {
     height: 28px;
     vertical-align: middle;
 }
-
 #sign_in:hover {
     box-shadow: 0px 1px 3px #bbbbbb;
 }
@@ -120,11 +122,9 @@ span {
     font-size: 16px;
     align-content: center;
 }
-
 #text_input:focus{
     outline: none;
 }
-
 #text_bubble svg {
     position: relative;
     top: 5px;
