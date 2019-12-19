@@ -150,11 +150,12 @@ span {
     margin: 30px auto;
     padding: 0px;
     width: 400px;
-    height: 36px;
+    height: 40px;
 }
 
 #search_buttons button {
-	position: relative;
+    display: inline-block;
+    position: relative;
 	height: 36px;
     font-size: 14px;
     color: #5c5c5c;
@@ -174,26 +175,30 @@ span {
 }
 
 #google_button {
-    margin-left: 60px;
+    //margin-left: 60px;
     margin-right: 10px;
+
 }
 
 #rolling {
-    position: relative;
-    top: 0px;
-    left: 0px;
-    width: 140px;
-    
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    color: #5c5c5c;
-    overflow: hidden;
+ //   position: relative;
+ //   top: 0px;
+ //   left: 200px;
+  //  width: 140px;
+  //  font-family: Arial, Helvetica, sans-serif;
+   // font-size: 14px;
+   // color: #5c5c5c;
+ //   overflow: hidden;
+ // text-align: left;
+ //  padding-top: 9px;
+ //  padding-bottom: 4px;
+ //white-space: nowrap;
 }
 
 #rolling div {
-    position: relative;
-    left: 0px;
-    top: -145px;
+ //   position: relative;
+ //   left: 0px;
+ //   top: -145px;
     text-align: left;
     padding-top: 9px;
     padding-bottom: 4px;
