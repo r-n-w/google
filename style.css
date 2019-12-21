@@ -1,7 +1,6 @@
 body {
     cursor: default;
 }
-
 .header {
     width: 100%;
     position: fixed;
@@ -10,49 +9,38 @@ body {
     height: 50px;
     cursor: default;
 }
-
 .header div {
     display: inline-block;
     margin: 12px 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
     color: #5c5c5c;
-
 }
-
 .header .l {
     float: left;
     margin-left: 15px;
 }
-
 .header .r {
     direction: ltr;
     float: right;
     margin-right: 15px;
 }
-
 #grid_circle {
     margin: 0px;
     border-radius: 20px;
     height: 36px;
     width: 36px;
     position: relative;
-   
-    
-
 }
 #grid_circle svg {
     height: 24px;
     width: 24px;
     position: relative;
     margin: 6px;
-   
 }
-
 #grid_circle:hover {
     background-color: #f1f1f1;
 }
-
 #grid {
     position: relative;
     vertical-align: middle;
@@ -69,7 +57,6 @@ body {
 span {
     cursor: pointer;
 }
-
 #sign_in {
     position: relative;
     display: inline-block;
@@ -87,7 +74,6 @@ span {
 #sign_in:hover {
     box-shadow: 0px 1px 3px #bbbbbb;
 }
-
 #Google {
     width: 275px;
     display: block;
@@ -95,7 +81,6 @@ span {
     padding-top: 140px;
     padding-bottom: 0px;
 }
-
 #text_bubble {
     display: table;
     margin: auto;
@@ -103,17 +88,14 @@ span {
     border-radius:50px;
     margin-top: 25px;
 }
-
 #text_bubble:hover{
     box-shadow: 0px 1px 5px #bbbbbb;
     border: 1px solid white;
 }
-
 #text_bubble:focus {
     box-shadow: 0px 1px 5px #bbbbbb;
     border: 1px solid white;
 }
-
 #text_input {
     width: 410px;
     height: 34px;
@@ -135,7 +117,6 @@ span {
     align-content: flex-start;
     fill: #8b8b8b;
 }
-
 #microphone {
     position: relative;
     top: -2px;
@@ -144,7 +125,6 @@ span {
     align-content: flex-end;
     margin-right: 12px;
 }
-
 #search_buttons {
     display: block;
     margin: 30px auto;
@@ -152,7 +132,6 @@ span {
     width: 400px;
     height: 40px;
 }
-
 #search_buttons button {
     display: inline-block;
     position: relative;
@@ -164,22 +143,17 @@ span {
     border-radius: 4px;
     padding: 0px 15px;
 }
-
 #search_buttons button:hover {
     border: 1px solid  #a5a5a5;
     box-shadow: 0px 1px 2px #bbbbbb;
 }
-
 #search_buttons button:focus {
 	outline: 0;
 }
-
 #google_button {
     //margin-left: 60px;
     margin-right: 10px;
-
 }
-
 #rolling {
  //   position: relative;
  //   top: 0px;
@@ -194,7 +168,6 @@ span {
  //  padding-bottom: 4px;
  //white-space: nowrap;
 }
-
 #rolling div {
  //   position: relative;
  //   left: 0px;
@@ -204,7 +177,6 @@ span {
     padding-bottom: 4px;
     white-space: nowrap;
 }
-
 .footer {
     position: fixed;
     left: 0;
@@ -215,25 +187,20 @@ span {
     color: #5c5c5c;
     border-top: 1px solid #a5a5a5;
 }
-
 .footer div {
     display: inline-block;
     margin-top: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 13px;
-
 }
-
 .footer .l {
     float: left;
     margin-left: 30px;
     cursor: pointer;
 }
-
 .footer .r {
     direction: ltr;
     float: right;
     margin-right: 30px;
     cursor: pointer;
- 
 }
