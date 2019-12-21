@@ -133,7 +133,9 @@ span {
     height: 40px;
 }
 #search_buttons button {
-	height: 36px;
+    position: relative;
+    top: 0px;
+    height: 36px;
     font-size: 14px;
     color: #5c5c5c;
     background: #f1f1f1;
@@ -142,6 +144,7 @@ span {
     padding: 0px 15px;
 }
 #search_buttons button:hover {
+    background: linear-gradient(#f1f1f1 50%, #e2e1e1 100%);
     border: 1px solid  #a5a5a5;
     box-shadow: 0px 1px 2px #bbbbbb;
 }
@@ -151,9 +154,11 @@ span {
 #google_button {
     margin-left: 60px;
     margin-right: 10px;
+    float: left;
 }
 #rolling {
     position: relative;
+    float: left;
     width: 140px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
@@ -165,6 +170,7 @@ span {
     left: 0px;
     top: -145px;
     text-align: left;
+    line-height: 16px;
     padding-top: 9px;
     padding-bottom: 4px;
     white-space: nowrap;
