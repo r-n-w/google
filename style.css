@@ -65,7 +65,7 @@ span {
     margin: 0px 10px;
     font-size: 13px;
     font-weight: 700;
-    background-color: #4387fd;
+    background: linear-gradient(#4387fd,#4683ea);
     border-radius: 2px;
     padding: 0px 12px;
     height: 28px;
