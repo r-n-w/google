@@ -68,7 +68,7 @@ span {
     margin: 0px 10px;
     font-size: 13px;
     font-weight: 700;
-    background: linear-gradient(#4387fd,#4683ea);
+    background: linear-gradient(#4387fd, #4683ea);
     border-radius: 2px;
     padding: 0px 12px;
     height: 28px;
@@ -88,10 +88,10 @@ span {
     display: table;
     margin: auto;
     border: 1px solid #cfcece;
-    border-radius:50px;
+    border-radius: 50px;
     margin-top: 25px;
 }
-#text_bubble:hover{
+#text_bubble:hover {
     box-shadow: 0px 1px 5px #bbbbbb;
     border: 1px solid white;
 }
@@ -107,7 +107,7 @@ span {
     font-size: 16px;
     align-content: center;
 }
-#text_input:focus{
+#text_input:focus {
     outline: none;
 }
 #text_bubble svg {
@@ -150,11 +150,11 @@ span {
 }
 #search_buttons button:hover {
     background: linear-gradient(#f1f1f1 50%, #e2e1e1 100%);
-    border: 1px solid  #a5a5a5;
+    border: 1px solid #a5a5a5;
     box-shadow: 0px 1px 2px #bbbbbb;
 }
 #search_buttons button:focus {
-	outline: 0;
+    outline: 0;
 }
 #google_button {
     margin-left: 60px;
@@ -166,7 +166,7 @@ span {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
     color: #5c5c5c;
-    overflow: hidden;   
+    overflow: hidden;
 }
 #rolling div {
     position: relative;
