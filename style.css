@@ -1,8 +1,20 @@
 body {
-    cursor: default;
+	cursor: default;
+	margin: 0;
+	padding: 0;
 }
 span:hover {
     text-decoration: underline;
+}
+.container {
+	display: flex;
+	height: 100vh;
+	align-items: center;
+	justify-content: center;
+
+}
+.box {
+
 }
 .header {
     width: 100%;
@@ -82,8 +94,7 @@ span {
     width: 275px;
     display: block;
     margin: auto;
-    padding-top: 140px;
-    padding-bottom: 0px;
+    padding: 0;
 }
 #text_bubble {
     display: table;
