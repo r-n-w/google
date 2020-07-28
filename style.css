@@ -14,7 +14,8 @@ span:hover {
 
 }
 .box {
-
+	box-sizing: border-box;
+	padding-bottom: 100px;
 }
 .header {
     width: 100%;
